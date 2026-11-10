@@ -403,9 +403,7 @@ function App() {
                 <p className="flex items-center gap-3"><Eye size={17} /> Reported by {selected.owner}</p>
               </div>
               <div className="mt-6 flex flex-wrap gap-3">
-                <a href={`mailto:${selected.email}?subject=${encodeURIComponent("Regarding your "+selected.name+" listing")}`} className="flex flex-1 items-center justify-center gap-2 rounded-xl bg-indigo-600 px-4 py-3 font-bold text-white hover:bg-indigo-700">
-                  <Mail size={17} /> Contact Reporter
-                </a>
+              <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(selected.email)}&su=${encodeURIComponent("Regarding your item on FindIt")}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 rounded-xl bg-indigo-600 px-4 py-3 font-bold text-white hover:bg-indigo-700"><Mail size={18} /> Contact Reporter</a>
                 <button onClick={() => deleteItem(selected.id)} className="rounded-xl border border-red-200 px-4 py-3 text-red-600 hover:bg-red-50" title="Delete listing"><Trash2 size={18} /></button>
               </div>
               <p className="mt-4 text-xs text-slate-400">For safety, arrange item handovers in a public campus location.</p>
