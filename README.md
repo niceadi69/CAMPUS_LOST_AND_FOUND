@@ -1,4 +1,4 @@
-:::writing{variant="document" id="73182"}
+
 # 🔎 FindIt – Campus Lost & Found
 
 **FindIt** is a simple, user-friendly campus Lost & Found web application designed to help students reconnect with their lost belongings and return found items to their rightful owners.
