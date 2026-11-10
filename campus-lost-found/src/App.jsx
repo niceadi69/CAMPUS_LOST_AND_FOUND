@@ -217,7 +217,7 @@ function App() {
                   <div><p className="text-sm font-bold">Item reunited!</p><p className="text-xs text-slate-400">Another happy student</p></div>
                 </div>
               </div>
-              <img className="h-[350px] w-full rounded-3xl object-cover opacity-90 shadow-2xl" src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1100" alt="University campus" />
+              <img className="h-[350px] w-full rounded-3xl object-cover opacity-90 shadow-2xl" src="/thapar.jpg" alt="University campus" />
               <div className="absolute -bottom-5 -right-4 rounded-2xl bg-white p-5 shadow-xl">
                 <p className="text-xs font-semibold text-slate-400">COMMUNITY LISTINGS</p>
                 <p className="mt-1 text-3xl font-black text-indigo-600">{items.length.toString().padStart(2, "0")}<span className="text-base text-slate-400">+</span></p>
